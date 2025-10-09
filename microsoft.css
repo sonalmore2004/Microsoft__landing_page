@@ -1,0 +1,36 @@
+.navbar li{
+    text-transform: capitalize;
+    padding:2.5px 0px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+}
+
+.one{
+    background-image: url(https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-image: no-repeat;
+    background-size:cover;
+    
+}
+.row img{
+    height: 30vh;
+   
+    
+}
+.two{
+    background-image: url(https://images.pexels.com/photos/17483873/pexels-photo-17483873/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-was-inspired-neural-networks-used-in-deep-learning-it-was-created-by-novoto-studio-as-part-of-the-visualising-ai-proje.png?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-image: no-repeat;
+}
+.four{
+    background-image: url(https://images.pexels.com/photos/1673973/pexels-photo-1673973.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-image: no-repeat;
+    height: 50em;
+}
+footer {
+    padding: 20px;
+    color: black;
+    text-transform: capitalize;
+    margin: 0px;
+  }
