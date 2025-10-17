@@ -1,0 +1,82 @@
+/* Navbar styles */
+.navbar li {
+    text-transform: capitalize;
+    padding: 2.5px 0px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Section backgrounds */
+.one {
+    background-image: url(https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+}
+
+.two {
+    background-image: url(https://images.pexels.com/photos/17483873/pexels-photo-17483873/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-was-inspired-neural-networks-used-in-deep-learning-it-was-created-by-novoto-studio-as-part-of-the-visualising-ai-proje.png?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
+
+.four {
+    background-image: url(https://images.pexels.com/photos/1673973/pexels-photo-1673973.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
+
+/* Responsive images */
+.row img {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    color: black;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .one {
+        min-height: 40vh;
+    }
+    .two {
+        min-height: 30vh;
+    }
+    .four {
+        min-height: 30vh;
+    }
+    .row img {
+        height: 20vh;
+    }
+    .navbar li {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .one {
+        min-height: 30vh;
+    }
+    .two {
+        min-height: 25vh;
+    }
+    .four {
+        min-height: 25vh;
+    }
+    .row img {
+        height: 15vh;
+    }
+    .navbar li {
+        font-size: 14px;
+    }
+}
